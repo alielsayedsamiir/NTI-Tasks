@@ -29,7 +29,6 @@ function isValid(s) {
     return top === -1; 
 }
 
-// ---------- Test Cases ----------
 console.log(isValid("()"));     
 console.log(isValid("()[]{}"));  
 console.log(isValid("(]"));      
